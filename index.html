@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Mitra Portal - Government Schemes for Farmers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌾 Krishi Mitra Portal</h1>
+        <p>Your guide to all government schemes for farmers</p>
+    </header>
+
+    <main>
+        <div class="filters">
+            <div class="filter-group">
+                <label for="state-filter">Select State:</label>
+                <select id="state-filter">
+                    <option value="all">All India</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    </select>
+            </div>
+            <div class="filter-group">
+                <label for="category-filter">Select Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="Direct Support">Direct Support</option>
+                    <option value="Insurance">Insurance</option>
+                    <option value="Loan Waiver">Loan Waiver</option>
+                    <option value="Machinery">Machinery</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="schemes-container" class="schemes-container">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
