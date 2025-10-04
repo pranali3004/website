@@ -43,5 +43,15 @@
     "benefit": "Subsidy on purchase of tractors, rotavators, and other farm equipment.",
     "eligibility": "All farmers in Maharashtra.",
     "documents": "Land records (7/12 extract), Aadhaar Card, Quotation of machinery."
+  },
+  // V V V ADD THE NEW SCHEME BELOW V V V
+  {
+    "id": 6,
+    "name": "Bhausaheb Fundkar Horticulture Scheme",
+    "state": "Maharashtra",
+    "category": "Horticulture",
+    "benefit": "100% subsidy on planting materials for selected fruit crops, up to 2 hectares.",
+    "eligibility": "Any farmer in Maharashtra with land records and access to water.",
+    "documents": "7/12 Land Record, Aadhaar Card, Bank Passbook."
   }
 ]
