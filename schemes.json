@@ -1,57 +1,30 @@
 [
   {
-    "id": 1,
     "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
-    "state": "Central",
-    "category": "Direct Support",
-    "benefit": "₹6,000 per year in three installments.",
+    "category": "Agriculture",
+    "description": "A government scheme that provides income support to all landholding farmer families in the country.",
     "eligibility": "All landholding farmer families.",
-    "documents": "Aadhaar Card, Landholding papers, Bank account details."
+    "link": "https://pmkisan.gov.in/"
   },
   {
-    "id": 2,
-    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
-    "state": "Central",
-    "category": "Insurance",
-    "benefit": "Insurance cover against crop failure due to natural calamities.",
-    "eligibility": "All farmers who have taken loans or who opt-in.",
-    "documents": "Land records, Bank passbook, Aadhaar card."
+    "name": "National Scholarship Portal (NSP)",
+    "category": "Education",
+    "description": "A single portal for various scholarships offered by central and state governments.",
+    "eligibility": "Varies by scholarship. Open to students from different backgrounds and levels.",
+    "link": "https://scholarships.gov.in/"
   },
   {
-    "id": 3,
-    "name": "Mahatma Jyotirao Phule Shetkari Karjmukti Yojana",
-    "state": "Maharashtra",
-    "category": "Loan Waiver",
-    "benefit": "Loan waiver for farmers with loans up to ₹2 lakh.",
-    "eligibility": "Farmers in Maharashtra with specified short-term crop loans.",
-    "documents": "Aadhaar Card, Bank loan documents, Ration card."
+    "name": "Mudra Yojana (PMMY)",
+    "category": "Business",
+    "description": "Provides loans up to 10 Lakh to non-corporate, non-farm small/micro enterprises.",
+    "eligibility": "Indian citizens looking to start or expand a small business.",
+    "link": "https://www.mudra.org.in/"
   },
   {
-    "id": 4,
-    "name": "Mukhyamantri Krishi Ashirwad Yojana",
-    "state": "Jharkhand",
-    "category": "Direct Support",
-    "benefit": "₹5,000 per acre for farmers with up to 5 acres of land.",
-    "eligibility": "Small and marginal farmers of Jharkhand.",
-    "documents": "Aadhaar Card, Land records, Bank details."
-  },
-  {
-    "id": 5,
-    "name": "Farm Mechanization Scheme",
-    "state": "Maharashtra",
-    "category": "Machinery",
-    "benefit": "Subsidy on purchase of tractors, rotavators, and other farm equipment.",
-    "eligibility": "All farmers in Maharashtra.",
-    "documents": "Land records (7/12 extract), Aadhaar Card, Quotation of machinery."
-  },
-  // V V V ADD THE NEW SCHEME BELOW V V V
-  {
-    "id": 6,
-    "name": "Bhausaheb Fundkar Horticulture Scheme",
-    "state": "Maharashtra",
-    "category": "Horticulture",
-    "benefit": "100% subsidy on planting materials for selected fruit crops, up to 2 hectares.",
-    "eligibility": "Any farmer in Maharashtra with land records and access to water.",
-    "documents": "7/12 Land Record, Aadhaar Card, Bank Passbook."
+    "name": "Soil Health Card Scheme",
+    "category": "Agriculture",
+    "description": "A scheme to issue 'Soil Health Cards' to farmers which will carry crop-wise recommendations of nutrients and fertilizers required.",
+    "eligibility": "All farmers in the country.",
+    "link": "https://soilhealth.dac.gov.in/"
   }
 ]
