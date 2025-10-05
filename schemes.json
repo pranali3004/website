@@ -1,64 +1,58 @@
-[
-  {
-    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
-    "category": "Agriculture",
-    "description": "A government scheme that provides income support to all landholding farmer families in the country.",
-    "eligibility": "All landholding farmer families.",
-    "link": "https://pmkisan.gov.in/"
-  },
-  {
-    "name": "National Scholarship Portal (NSP)",
-    "category": "Education",
-    "description": "A single portal for various scholarships offered by central and state governments.",
-    "eligibility": "Varies by scholarship. Open to students from different backgrounds and levels.",
-    "link": "https://scholarships.gov.in/"
-  },
-  {
-    "name": "Mudra Yojana (PMMY)",
-    "category": "Business",
-    "description": "Provides loans up to 10 Lakh to non-corporate, non-farm small/micro enterprises.",
-    "eligibility": "Indian citizens looking to start or expand a small business.",
-    "link": "https://www.mudra.org.in/"
-  },
-  {
-    "name": "Soil Health Card Scheme",
-    "category": "Agriculture",
-    "description": "A scheme to issue 'Soil Health Cards' to farmers which will carry crop-wise recommendations of nutrients and fertilizers required.",
-    "eligibility": "All farmers in the country.",
-    "link": "https://soilhealth.dac.gov.in/"
-  }
-]
-[
-  {
-    "name": "Tractor Subsidy Scheme",
-    "category": "Machinery",
-    "state": "Maharashtra",
-    "description": "Provides a subsidy for purchasing new tractors and other agricultural machinery to promote farm mechanization.",
-    "eligibility": "Farmers with valid land records in Maharashtra.",
-    "link": "#"
-  },
-  {
-    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
-    "category": "Agriculture",
-    "state": "All",
-    "description": "A government scheme that provides income support to all landholding farmer families in the country.",
-    "eligibility": "All landholding farmer families.",
-    "link": "https://pmkisan.gov.in/"
-  },
-  {
-    "name": "National Scholarship Portal (NSP)",
-    "category": "Education",
-    "state": "All",
-    "description": "A single portal for various scholarships offered by central and state governments.",
-    "eligibility": "Varies by scholarship. Open to students from different backgrounds and levels.",
-    "link": "https://scholarships.gov.in/"
-  },
-  {
-    "name": "Solar Pump Scheme (PM-KUSUM)",
-    "category": "Machinery",
-    "state": "All",
-    "description": "Scheme to provide subsidies on solar-powered irrigation pumps to reduce reliance on diesel.",
-    "eligibility": "Individual farmers, groups of farmers, co-operatives.",
-    "link": "#"
-  }
-]
+const schemes = [
+    {
+        name: "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+        description: "Provides ₹6,000 per year in three installments to small and marginal farmers.",
+        eligibility: "Landholding farmers (excludes certain categories like income taxpayers).",
+        benefits: "Direct bank transfer for income support.",
+        applyLink: "https://pmkisan.gov.in",
+        category: "Income Support"
+    },
+    {
+        name: "Soil Health Card Scheme",
+        description: "Free soil testing and customized fertilizer recommendations.",
+        eligibility: "All farmers with cultivable land.",
+        benefits: "Improves soil fertility and reduces input costs.",
+        applyLink: "https://soilhealth.dac.gov.in",
+        category: "Soil Management"
+    },
+    {
+        name: "Kisan Credit Card (KCC)",
+        description: "Short-term credit for crop production at low interest.",
+        eligibility: "Farmers with valid land records.",
+        benefits: "Up to ₹3 lakh loan at 4% interest subsidy.",
+        applyLink: "https://www.bankbazaar.com/kisan-credit-card.html",
+        category: "Credit/Loans"
+    },
+    {
+        name: "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        description: "Crop insurance against natural calamities and pests.",
+        eligibility: "Farmers growing notified crops.",
+        benefits: "Premium subsidy up to 90%; quick claim settlement.",
+        applyLink: "https://pmfby.gov.in",
+        category: "Insurance"
+    },
+    {
+        name: "National Food Security Mission (NFSM)",
+        description: "Enhances production of rice, wheat, pulses, and millets.",
+        eligibility: "Farmers in targeted districts.",
+        benefits: "Seeds, tools, and training support.",
+        applyLink: "https://nfsm.gov.in",
+        category: "Crop Production"
+    },
+    {
+        name: "Rashtriya Krishi Vikas Yojana (RKVY)",
+        description: "Funds for agricultural infrastructure and research.",
+        eligibility: "State-level projects for farmers.",
+        benefits: "Irrigation, storage, and market linkages.",
+        applyLink: "https://rkvy.nic.in",
+        category: "Development"
+    },
+    {
+        name: "e-NAM (National Agriculture Market)",
+        description: "Online platform for trading agricultural produce.",
+        eligibility: "Farmers registered with local mandis.",
+        benefits: "Transparent pricing and wider market access.",
+        applyLink: "https://enam.gov.in",
+        category: "Marketing"
+    }
+];
