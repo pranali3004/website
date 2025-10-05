@@ -28,3 +28,37 @@
     "link": "https://soilhealth.dac.gov.in/"
   }
 ]
+[
+  {
+    "name": "Tractor Subsidy Scheme",
+    "category": "Machinery",
+    "state": "Maharashtra",
+    "description": "Provides a subsidy for purchasing new tractors and other agricultural machinery to promote farm mechanization.",
+    "eligibility": "Farmers with valid land records in Maharashtra.",
+    "link": "#"
+  },
+  {
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Agriculture",
+    "state": "All",
+    "description": "A government scheme that provides income support to all landholding farmer families in the country.",
+    "eligibility": "All landholding farmer families.",
+    "link": "https://pmkisan.gov.in/"
+  },
+  {
+    "name": "National Scholarship Portal (NSP)",
+    "category": "Education",
+    "state": "All",
+    "description": "A single portal for various scholarships offered by central and state governments.",
+    "eligibility": "Varies by scholarship. Open to students from different backgrounds and levels.",
+    "link": "https://scholarships.gov.in/"
+  },
+  {
+    "name": "Solar Pump Scheme (PM-KUSUM)",
+    "category": "Machinery",
+    "state": "All",
+    "description": "Scheme to provide subsidies on solar-powered irrigation pumps to reduce reliance on diesel.",
+    "eligibility": "Individual farmers, groups of farmers, co-operatives.",
+    "link": "#"
+  }
+]
